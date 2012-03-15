@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#Zombie.create(name: "zombie1", graveyard: "UPC1")
+#Zombie.create(name: "zombie2", graveyard: "UPC2")
+
+Tweet.create(status: "prueba1", zombie: Zombie.find(1))
